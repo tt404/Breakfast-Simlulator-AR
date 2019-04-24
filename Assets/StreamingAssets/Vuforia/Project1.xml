@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="Drink_1" sideLength="0.148166"/>
+        <ImageTarget name="Placemat_3" size="11.000000 8.704791"/>
+        <ImageTarget name="Placemat_2" size="11.000000 8.704791"/>
+        <ImageTarget name="Placemat_1" size="11.000000 8.704791"/>
+        <ImageTarget name="Magazine_2" size="0.139700 0.176535"/>
+        <ImageTarget name="Magazine_1" size="0.139700 0.176535"/>
+        <ImageTarget name="Cereal_1.Left" size="0.067733 0.180445"/>
+        <ImageTarget name="Cereal_1.Right" size="0.067733 0.180445"/>
+        <ImageTarget name="Cereal_1.Bottom" size="0.135466 0.067733"/>
+        <ImageTarget name="Cereal_1.Back" size="0.135466 0.180445"/>
+        <ImageTarget name="Cereal_1.Top" size="0.135466 0.067733"/>
+        <ImageTarget name="Cereal_1.Front" size="0.135466 0.180445"/>
+        <MultiTarget name="Cereal_1">
+            <Part name="Cereal_1.Left" translation="-0.06773299723863602 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Cereal_1.Right" translation="0.06773299723863602 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Cereal_1.Front" translation="0 0 0.03386649861931801" rotation="AD: 1 0 0 0"/>
+            <Part name="Cereal_1.Back" translation="0 0 -0.03386649861931801" rotation="AD: 0 1 0 180"/>
+            <Part name="Cereal_1.Top" translation="0 0.09022250026464462 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Cereal_1.Bottom" translation="0 -0.09022250026464462 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
